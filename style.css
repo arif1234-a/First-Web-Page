@@ -1,0 +1,52 @@
+body {
+  background-color: azure;
+}
+
+ul,
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 10px; color: black;
+}
+.Header-div {
+  align-items: center;
+  align-content: center;
+  height: 100px;
+}
+.secndHeader-div {
+  align-items: center;
+  align-content: center;
+  border-bottom: solid 2px;
+  height: 100px;
+}
+
+.headdiv {
+background-image: url(./images/headerimage.avif);
+height: 900px;
+width: 666px;
+background-position: 50% 50%;
+align-self: center;
+align-items: center;
+align-content: center;
+margin-left: 400px;
+margin-right: 400px;
+
+}
+
+.text {
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 100px;
+}
+
+
+
+.video-div {
+    height: 397px;
+    width: 400px;
+    align-content: center;
+    align-items: center;
+    padding-left: 250px;
+    background-image: url(./images/Screenshotabbvideo.png);
+
+}
