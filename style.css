@@ -1,5 +1,9 @@
 body {
   background-color: azure;
+  color: black;
+}
+a {
+  text-decoration-color: black;
 }
 
 ul,
@@ -7,46 +11,244 @@ li {
   list-style-type: none;
   display: inline;
   margin: 10px; color: black;
+  display: flex;
+  text-decoration: none;
+  justify-content: left;
 }
 .Header-div {
-  align-items: center;
-  align-content: center;
-  height: 100px;
+  height: 50px;
+  width:max-content
+  
+  
 }
 .secndHeader-div {
   align-items: center;
   align-content: center;
-  border-bottom: solid 2px;
+  border-bottom: solid 1px;
   height: 100px;
 }
+ 
 
+h3 {
+  font-size: 25px;
+}
+
+p {
+}
 .headdiv {
-background-image: url(./images/headerimage.avif);
-height: 900px;
-width: 666px;
-background-position: 50% 50%;
-align-self: center;
+background-image: url(./images/header.image.avif);
+border-image: space;
+height: 883px;
+width: 1030px;
 align-items: center;
 align-content: center;
-margin-left: 400px;
-margin-right: 400px;
+margin-left: 235px;
+text-align: center;
+}
 
+.headimg {
+display: inline-block ;
 }
 
 .text {
-    padding-left: 150px;
-    padding-right: 150px;
-    height: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: min-content;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; ;
 }
 
+.yellow {
+  background-color: #FBFFA7 ;
+  width: 900px;
+  height: 800px;
+ position: absolute;
+ left: 600px;
+ 
+}
 
 
 .video-div {
     height: 397px;
     width: 400px;
-    align-content: center;
-    align-items: center;
-    padding-left: 250px;
-    background-image: url(./images/Screenshotabbvideo.png);
+    display: flex;
+    align-self: center;
+    position: absolute;
+    top: 2650px;
+    left: 420px;
 
+} 
+
+.left-image {
+  background-image: url(./images/persontyping.jpg);
+  width: 511px;
+  height: 511px;
+  margin-right: 600px;
+  margin-left: 200px;
+  position: absolute; 
+  width: 32%;
+  height: 61vh;
+  top: 1550px;
+}
+
+.right-image {
+background-image: url(./images/personwalking.jpg);
+width: 409px;
+height: 306px;
+position: absolute;
+left: 850px;
+top: 1600px;
+}
+
+.Secondtextdiv {
+  position: absolute;
+  top: 2300px;
+
+}
+
+.Thirdtextdivtext {
+  position: absolute;
+  top: 3100px;
+}
+
+.green {
+  background-color: #b7ffc0;
+  position: absolute;
+  top: 3600px;
+  width: 900px;
+  height: 900px;
+margin-right: 500px;
+
+}
+
+.upper-pic {
+background-image: url(./images/teacherimg.jpg);
+width: 409px;
+height: 306px;
+position : absolute;
+top: 100px;
+left: 100px;
+}
+
+.lower-pic {
+  background-image: url(./images/wallimg.jpg);
+  width: 409px;
+  height: 306px;
+  position : absolute;
+  top: 500px;
+  left: 100px;
+}
+
+.side-pic {
+  background-image: url(./images/peopleworking.jpg);
+  width: 511px;
+  height: 511px;
+  position: absolute;
+  left: 800px;
+  top: 200px
+}
+
+.Fourthtextdiv {
+  position: absolute;
+  top: 4500px;
+}
+
+.Graph-image {
+  background-image: url(./images/graphs.avif);
+  width: 1023px;
+  height: 575px;
+  position: absolute;
+  left: 250px;
+  right: 50px;
+  top: 5000px;
+
+}
+
+.Fifthtextdiv {
+  position: absolute;
+  top: 5600px;
+}
+
+.Majorfinalpicdiv {
+  position: absolute;
+  top: 6000px;
+  height: 1000px;
+  width: 1000px;
+}
+
+.purple {
+  background-color: #d5b3ff;
+  height: 700px;
+  width: 1100px;
+  position: relative;
+  left: 200px;
+  right: 200px;
+}
+
+.rightpic {
+  background-image: url(./images/theoffice.jpg);
+  width: 409px;
+  height: 306px;
+  position: relative;
+  bottom: 500px;
+  left: 70px;
+}
+
+.leftpic {
+  background-image: url(./images/meeting.jpg);
+  width: 511px;
+  height: 511px;
+  position: relative;
+  bottom: 900px;
+  left: 800px;
+}
+
+.Sixthtextdiv {
+  position: absolute;
+  top: 6700px;
+  margin-bottom: 100px;
+
+}
+
+.ab-live-div {
+  background-image: url(./images/liveimg.jpg);
+  width: 1000px;
+  height: 614px;
+  position: absolute;
+  top: 7200px;
+  right: 400px;
+}
+
+.Seventhtextdiv {
+  background-color: #b1c6ff;
+  height: 614px;
+  width: 600px;
+  position: absolute;
+  top:7200px;
+  right: 50px;
+  left: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.blue {
+  padding: 70px;
+}
+
+.footer1 {
+  background-image: url(./images/Abletontext.svg);
+  width: 200px;
+  height: 48px;
+  position: absolute;
+  top: 8100px;
+  margin-bottom: 100px;
+}
+
+.footer {
+  position: absolute;
+  top: 8000px;
+  margin-bottom: 300px;
 }
